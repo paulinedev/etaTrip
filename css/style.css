@@ -4,45 +4,71 @@
 /* sass --watch style.scss:style.css */
 /* CODER DANS LE *SCSS* */
 * h1 {
-  font-family: "Staatliches";
-}
+  font-family: 'Staatliches'; }
 * p {
-  font-family: "PT Serif";
-}
+  font-family: 'PT Serif'; }
 
 /*BODY*/
+body {
+  background-color: #ffffff;
+  padding: 0.09%; }
+
 /*HEADER*/
+.no-spacing {
+  padding: 0px;
+  margin: 0px; }
+
+.background {
+  background-size: auto;
+  background-repeat: no-repeat; }
+
 /* LONDRES */
-.londres .londres_header {
-  height: 400px;
-  background-color: #714264;
-}
-.londres .londres_titre {
-  height: 100px;
-  background-color: #1aa22e;
-}
-.londres .londres_top1 {
-  height: 250px;
-  background-color: #24add0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-}
-.londres .londres_top1 .londres_top1_texte {
-  height: 200px;
-  background-color: #5124d0;
-}
-.londres .londres_top2 {
-  height: 250px;
-  background-color: #24d02b;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-}
-.londres .londres_top2 .londres_top2_texte {
-  height: 200px;
-  background-color: #d024ae;
-}
+.londres {
+  /* LONDRES HEADER */
+  /* LONDRES TITRE */
+  /* LONDRES CARTE */
+  /* LONDRES IMAGE TOP 1*/
+  /* LONDRES IMAGE TOP 2*/
+  /* LONDRES IMAGE TOP 3*/
+  /* LONDRES IMAGE TOP 4*/
+  /* LONDRES IMAGETOP 5*/
+  /*
+  LONDRE TOP
+  */ }
+  .londres .londres-header {
+    background-image: url(../image/defaut_header_1920x600px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px; }
+    .londres .londres-header h1 {
+      font-size: 150px;
+      color: #ffffff; }
+  .londres .londres-titre {
+    height: 100px;
+    text-align: center;
+    padding: 2%; }
+  .londres .londres-carte {
+    text-align: center;
+    padding-bottom: 1%; }
+  .londres .londres-top1-img, .londres .londres-top2-img, .londres .londres-top3-img, .londres .londres-top4-img, .londres .londres-top5-img {
+    background-image: url(../image/defaut_top1_1920x500px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat; }
+  .londres .londres-top2-img {
+    background-image: url(../image/defaut_top2_1920x500px.jpg); }
+  .londres .londres-top3-img {
+    background-image: url(../image/defaut_top3_1920x500px.jpg); }
+  .londres .londres-top4-img {
+    background-image: url(../image/defaut_top4_1920x500px.jpg); }
+  .londres .londres-top5-img {
+    background-image: url(../image/defaut_top5_1920x500px.jpg); }
+  .londres .londres-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px; }
+    .londres .londres-top .londres-top-texte {
+      background-color: rgba(255, 255, 255, 0.5); }
 
 /* */
 /*FOOTER*/

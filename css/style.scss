@@ -15,44 +15,83 @@
 //-----------------------------------------------------------
 /*BODY*/
 body{
-
+    background-color: #ffffff;
+    padding: 0.09%;
 };
 //-----------------------------------------------------------
 /*HEADER*/
 header{
 
 };
+.no-spacing{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    background-size: auto;
+    background-repeat: no-repeat;
+}
 //-----------------------------------------------------------
 /* LONDRES */
 .londres{
-    .londres_header{
-        height: 400px;
-        background-color: rgb(113, 66, 100);
-    };
-    .londres_titre{
-        height: 100px;
-        background-color: rgb(26, 162, 46);
-    };
-    .londres_top1{
-        height: 250px;
-        background-color: rgb(36, 173, 208);
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        .londres_top1_texte{
-            height: 200px;
-            background-color: rgb(81, 36, 208);
+        /* LONDRES HEADER */
+    .londres-header{
+        background-image: url(../image/defaut_header_1920x600px.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        text-align: center;
+        h1{
+            font-size: 150px;
+            color: #ffffff;
         };
+        padding: 0px;
     };
-    .londres_top2{
-        height: 250px;
-        background-color: rgb(36, 208, 43);
+            /* LONDRES TITRE */
+    .londres-titre{
+        height: 100px;
+        text-align: center;
+        padding: 2%;
+    };
+            /* LONDRES CARTE */
+    .londres-carte{
+        text-align: center;
+        padding-bottom: 1%;
+    };
+            /* LONDRES IMAGE TOP 1*/
+    .londres-top1-img{
+        background-image: url(../image/defaut_top1_1920x500px.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+    };
+            /* LONDRES IMAGE TOP 2*/
+    .londres-top2-img{
+        @extend .londres-top1-img;
+        background-image: url(../image/defaut_top2_1920x500px.jpg);
+    };
+            /* LONDRES IMAGE TOP 3*/
+    .londres-top3-img{
+        @extend .londres-top1-img;
+        background-image: url(../image/defaut_top3_1920x500px.jpg);
+    };
+            /* LONDRES IMAGE TOP 4*/
+    .londres-top4-img{
+        @extend .londres-top1-img;
+        background-image: url(../image/defaut_top4_1920x500px.jpg);
+    };
+            /* LONDRES IMAGETOP 5*/
+    .londres-top5-img{
+        @extend .londres-top1-img;
+        background-image: url(../image/defaut_top5_1920x500px.jpg);
+    };
+            /*
+            LONDRE TOP
+            */
+    .londres-top{
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 20px;
-        .londres_top2_texte{
-            height: 200px;
-            background-color: rgb(208, 36, 174);
+        .londres-top-texte{
+            background-color: rgba(255, 255, 255, 0.5);
         };
     };
 
