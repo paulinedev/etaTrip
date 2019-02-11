@@ -1,0 +1,78 @@
+/* invite de commande */
+/* D: */
+/* cd D:\Desktop\EtaTrip\css */
+/* sass --watch style.scss:style.css */
+/* CODER DANS LE *SCSS* */
+
+*{
+    h1{
+        font-family: 'Staatliches';
+    };
+    p{
+        font-family: 'PT Serif';
+    };
+};
+//-----------------------------------------------------------
+/*BODY*/
+body{
+
+};
+//-----------------------------------------------------------
+/*HEADER*/
+header{
+
+};
+//-----------------------------------------------------------
+/* LONDRES */
+.londres{
+    .londres_header{
+        height: 400px;
+        background-color: rgb(113, 66, 100);
+    };
+    .londres_titre{
+        height: 100px;
+        background-color: rgb(26, 162, 46);
+    };
+    .londres_top1{
+        height: 250px;
+        background-color: rgb(36, 173, 208);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        .londres_top1_texte{
+            height: 200px;
+            background-color: rgb(81, 36, 208);
+        };
+    };
+    .londres_top2{
+        height: 250px;
+        background-color: rgb(36, 208, 43);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        .londres_top2_texte{
+            height: 200px;
+            background-color: rgb(208, 36, 174);
+        };
+    };
+
+}
+//~~~~~~~~~~~~~~~~~~~~~~~~~
+/* */
+//-----------------------------------------------------------
+/*FOOTER*/
+footer{
+
+};
+//-----------------------------------------------------------
+/* RESPONSIVE
+  TABLETTE */
+@media screen and (max-width: 1000px){
+
+};
+//~~~~~~~~~~~~~~~~~~~~~~~~~
+/* RESPONSIVE
+  SMARTPHONE */
+@media screen and (max-width: 768px){
+
+};

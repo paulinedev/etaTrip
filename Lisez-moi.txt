@@ -1,0 +1,63 @@
+Voici une base pour un site web.
+
+					/!\SASS/!\
+J'utilise le sass, vous avez donc besoin d'un invité de commande pour l'utiliser. Pour ce faire vous 
+devez écrire le chemin vers votre dossier de projet : "cd D:\ESD-Projets finis\Dev\"nom_du_dossier"\css"
+par exemple
+Il faut répéter cette étape à chaque fois qu'on commence à coder le projet
+Permet de faire :
+**********************
+li{
+  lalalallalla;
+  ul{
+    lalalallalla;
+    lalalallalla;
+    a{
+      lalalallalla;
+    }
+  }
+}
+***********************
+$noir : #000
+a{
+  color: $noir;
+}
+***********************
+
+
+					/!\BOOTSTRAP/!\
+Il y a un dossier pour utiliser le bootstrap... 
+***********************************************
+Structure : Une row contient 12 colonnes
+
+<div class="container-fluid">
+  <!-- LIGNE -->
+  <!-- COLONNE (1 moitié de page) -->
+   <div class="row">
+   	<div class="col-md-6">  </div>
+   	<div class="col-md-6">  </div>
+   </div>
+  <!-- COLONNE (1 tier de page) PAGE DIVISé EN 12-->
+   <div class="row">
+	<div class="col-md-4">  </div>
+	<div class="col-md-4">  </div>
+	<div class="col-md-4">  </div>
+   </div>
+  <!-- RESPONSIVE MD(desktop) SM (tablet) XS (phone) -->
+   <div class="row">
+	<div class="col-md-3 col-sm-6">  </div>
+	<div class="col-md-3 col-sm-6">  </div>
+	<div class="col-md-3 col-sm-6">  </div>
+	<div class="col-md-3 col-sm-6">  </div>
+   </div>	
+</div>
+***********************************************
+
+					/!\RESET/!\
+Il y a un dossier reset qui remet tout les paramètres natif aux moteurs de recherche à 0
+
+					/!\LOREM IPSUM/!\
+Juste quelques phrases en lorem ipsum, au cas où...
+
+					/!\BDD/!\
+Petite base de donnée si besoin... Mettre le dossier projet dans htdocs pour l'utiliser
