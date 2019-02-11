@@ -4,37 +4,45 @@
 /* sass --watch style.scss:style.css */
 /* CODER DANS LE *SCSS* */
 * h1 {
-  font-family: 'Staatliches'; }
+  font-family: "Staatliches";
+}
 * p {
-  font-family: 'PT Serif'; }
+  font-family: "PT Serif";
+}
 
 /*BODY*/
 /*HEADER*/
 /* LONDRES */
 .londres .londres_header {
   height: 400px;
-  background-color: #714264; }
+  background-color: #714264;
+}
 .londres .londres_titre {
   height: 100px;
-  background-color: #1aa22e; }
+  background-color: #1aa22e;
+}
 .londres .londres_top1 {
   height: 250px;
   background-color: #24add0;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 20px; }
-  .londres .londres_top1 .londres_top1_texte {
-    height: 200px;
-    background-color: #5124d0; }
+  padding-left: 20px;
+}
+.londres .londres_top1 .londres_top1_texte {
+  height: 200px;
+  background-color: #5124d0;
+}
 .londres .londres_top2 {
   height: 250px;
   background-color: #24d02b;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 20px; }
-  .londres .londres_top2 .londres_top2_texte {
-    height: 200px;
-    background-color: #d024ae; }
+  padding-left: 20px;
+}
+.londres .londres_top2 .londres_top2_texte {
+  height: 200px;
+  background-color: #d024ae;
+}
 
 /* */
 /*FOOTER*/
