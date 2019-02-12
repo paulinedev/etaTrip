@@ -1,12 +1,15 @@
 /* invite de commande */
 /* D: */
-/* cd D:\Desktop\EtaTrip\css */
+/* cd D:\Desktop/EtaTrip/css */
 /* sass --watch style.scss:style.css */
 /* CODER DANS LE *SCSS* */
 * h1 {
   font-family: 'Staatliches'; }
 * p {
   font-family: 'PT Serif'; }
+* .no-spacing {
+  margin: 0%;
+  padding: 0%; }
 
 /*BODY*/
 body {
