@@ -176,7 +176,7 @@ header{
         @extend .rome-top1-img;
         background-image: url(../image/rome_vatican3.jpg);
     };
-    
+
     .img-cercle{
         width: 69%;
     }
@@ -202,17 +202,18 @@ header{
         };
         margin: 5% 3%;
     };
-    
+
 }
 //-----------------------------------------------------------
 /* PARIS */
 .paris{
         /* PARIS HEADER */
     .paris-header{
-        background-image: url(../image/defaut_header_1920x600px.jpg);
+        background-image: url(../image/paris_header_1920x600px.jpg);
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
+        background-position: center;
         h1{
             font-size: 150px;
             color: #ffffff;
@@ -229,32 +230,35 @@ header{
     .paris-carte{
         text-align: center;
         padding-bottom: 1%;
+        background-image: url(../image/defaut_carte_600x600px.jpg);
     };
             /* PARIS IMAGE TOP 1*/
     .paris-top1-img{
-        background-image: url(../image/defaut_top1_1920x500px.jpg);
+        background-image: url(../image/paris_top1_1920x500px.jpg);
         background-size: auto;
         background-repeat: no-repeat;
+        background-position: center;
     };
             /* PARIS IMAGE TOP 2*/
     .paris-top2-img{
         @extend .paris-top1-img;
-        background-image: url(../image/defaut_top2_1920x500px.jpg);
+        background-image: url(../image/paris_top2_1920x500px.jpg);
     };
             /* PARIS IMAGE TOP 3*/
     .paris-top3-img{
         @extend .paris-top1-img;
-        background-image: url(../image/defaut_top3_1920x500px.jpg);
+        background-image: url(../image/paris_top3_1920x500px.jpg);
     };
             /* PARIS IMAGE TOP 4*/
     .paris-top4-img{
         @extend .londres-top1-img;
-        background-image: url(../image/defaut_top4_1920x500px.jpg);
+        background-image: url(../image/paris_top4_1920x500px.jpg);
+        background-position: bottom;
     };
             /* PARIS IMAGETOP 5*/
     .paris-top5-img{
         @extend .paris-top1-img;
-        background-image: url(../image/defaut_top5_1920x500px.jpg);
+        background-image: url(../image/paris_top5_1920x500px.jpg);
     };
             /*
             PARIS TOP
@@ -266,7 +270,7 @@ header{
         .paris-top-texte{
             background-color: rgba(255, 255, 255, 0.5);
         };
-        margin: 5% 3%;
+        margin: 4% 3%;
     };
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~
