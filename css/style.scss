@@ -109,6 +109,7 @@ header{
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
+        letter-spacing: 8px;
         background-position: bottom;
         h1{
             font-size: 150px;
@@ -116,6 +117,34 @@ header{
         };
         padding: 0px;
     };
+
+    .container span{
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .text{
+        color: white;
+        font-size: 150px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        position: relative;
+        animation: text 3s 1;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -40%;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -40%;
+        }
+        85%{
+            letter-spacing: 8px;
+            margin-bottom: -40%;
+        }
+    }
             /* ROME TITRE */
     .rome-titre{
         height: 100px;
