@@ -36,7 +36,7 @@ body {
   /* LONDRES IMAGE TOP 4*/
   /* LONDRES IMAGETOP 5*/
   /*
-  LONDRE TOP
+  LONDRES TOP
   */ }
   .londres .londres-header {
     background-image: url(../image/defaut_header_1920x600px.jpg);
@@ -54,7 +54,7 @@ body {
   .londres .londres-carte {
     text-align: center;
     padding-bottom: 1%; }
-  .londres .londres-top1-img, .londres .londres-top2-img, .londres .londres-top3-img, .londres .londres-top4-img, .londres .londres-top5-img {
+  .londres .londres-top1-img, .londres .londres-top2-img, .londres .londres-top3-img, .londres .londres-top4-img, .londres .londres-top5-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img {
     background-image: url(../image/defaut_top1_1920x500px.jpg);
     background-size: auto;
     background-repeat: no-repeat; }
@@ -69,8 +69,107 @@ body {
   .londres .londres-top {
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin: 1% 0%; }
     .londres .londres-top .londres-top-texte {
+      background-color: rgba(255, 255, 255, 0.5); }
+
+/* ROME */
+.rome {
+  /* ROME HEADER */
+  /* ROME TITRE */
+  /* ROME CARTE */
+  /* ROME IMAGE TOP 1*/
+  /* ROME IMAGE TOP 2*/
+  /* ROME IMAGE TOP 3*/
+  /* ROME IMAGE TOP 4*/
+  /* ROME IMAGETOP 5*/
+  /*
+  ROME TOP
+  */ }
+  .rome .rome-header {
+    background-image: url(../image/defaut_header_1920x600px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px; }
+    .rome .rome-header h1 {
+      font-size: 150px;
+      color: #ffffff; }
+  .rome .rome-titre {
+    height: 100px;
+    text-align: center;
+    padding: 2%; }
+  .rome .rome-carte {
+    text-align: center;
+    padding-bottom: 1%; }
+  .rome .rome-top1-img, .rome .rome-top2-img, .rome .rome-top3-img, .rome .rome-top4-img, .rome .rome-top5-img {
+    background-image: url(../image/defaut_top1_1920x500px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat; }
+  .rome .rome-top2-img {
+    background-image: url(../image/defaut_top2_1920x500px.jpg); }
+  .rome .rome-top3-img {
+    background-image: url(../image/defaut_top3_1920x500px.jpg); }
+  .rome .rome-top4-img {
+    background-image: url(../image/defaut_top4_1920x500px.jpg); }
+  .rome .rome-top5-img {
+    background-image: url(../image/defaut_top5_1920x500px.jpg); }
+  .rome .rome-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin: 1% 0%; }
+    .rome .rome-top .rome-top-texte {
+      background-color: rgba(255, 255, 255, 0.5); }
+
+/* PARIS */
+.paris {
+  /* PARIS HEADER */
+  /* PARIS TITRE */
+  /* PARIS CARTE */
+  /* PARIS IMAGE TOP 1*/
+  /* PARIS IMAGE TOP 2*/
+  /* PARIS IMAGE TOP 3*/
+  /* PARIS IMAGE TOP 4*/
+  /* PARIS IMAGETOP 5*/
+  /*
+  PARIS TOP
+  */ }
+  .paris .paris-header {
+    background-image: url(../image/defaut_header_1920x600px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px; }
+    .paris .paris-header h1 {
+      font-size: 150px;
+      color: #ffffff; }
+  .paris .paris-titre {
+    height: 100px;
+    text-align: center;
+    padding: 2%; }
+  .paris .paris-carte {
+    text-align: center;
+    padding-bottom: 1%; }
+  .paris .paris-top1-img, .paris .paris-top2-img, .paris .paris-top3-img, .paris .paris-top5-img {
+    background-image: url(../image/defaut_top1_1920x500px.jpg);
+    background-size: auto;
+    background-repeat: no-repeat; }
+  .paris .paris-top2-img {
+    background-image: url(../image/defaut_top2_1920x500px.jpg); }
+  .paris .paris-top3-img {
+    background-image: url(../image/defaut_top3_1920x500px.jpg); }
+  .paris .paris-top4-img {
+    background-image: url(../image/defaut_top4_1920x500px.jpg); }
+  .paris .paris-top5-img {
+    background-image: url(../image/defaut_top5_1920x500px.jpg); }
+  .paris .paris-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin: 1% 0%; }
+    .paris .paris-top .paris-top-texte {
       background-color: rgba(255, 255, 255, 0.5); }
 
 /* */
