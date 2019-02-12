@@ -97,7 +97,7 @@ header{
         .londres-top-texte{
             background-color: rgba(255, 255, 255, 0.5);
         };
-        margin: 1% 0%;
+        margin: 5% 3%;
     };
 };
 //-----------------------------------------------------------
@@ -105,10 +105,11 @@ header{
 .rome{
         /* ROME HEADER */
     .rome-header{
-        background-image: url(../image/defaut_header_1920x600px.jpg);
+        background-image: url(../image/rome_header.jpg);
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
+        background-position: bottom;
         h1{
             font-size: 150px;
             color: #ffffff;
@@ -125,23 +126,60 @@ header{
     .rome-carte{
         text-align: center;
         padding-bottom: 1%;
-    };
-            /* ROME IMAGE TOP 1*/
-    .rome-top1-img{
-        background-image: url(../image/defaut_top1_1920x500px.jpg);
+        background-image: url(../image/defaut_carte_600x600px.jpg);
         background-size: auto;
         background-repeat: no-repeat;
     };
+            /* ROME IMAGE TOP 1*/
+    .rome-top1-img{
+        background-image: url(../image/rome_colisee2.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+    };
+
+    .rome-position-text{
+        width: 50%;
+        position: absolute;
+        right: 5%;
+        padding-left: 12px;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        display: inline-block;
+        justify-content: center;
+    };
+    .rome-position-text-2{
+        position: relative;
+        padding-left: 12px;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        left: 5%;
+    }
+
+    .rome-align-right{
+        float: right;
+    }
+    .rome-align-left{
+        float: left;
+    }
+    .rome-position-carousel{
+        background-size: 100%;
+    }
             /* ROME IMAGE TOP 2*/
     .rome-top2-img{
         @extend .rome-top1-img;
-        background-image: url(../image/defaut_top2_1920x500px.jpg);
+        background-image: url(../image/rome_trevi2.jpg);
     };
             /* ROME IMAGE TOP 3*/
     .rome-top3-img{
         @extend .rome-top1-img;
-        background-image: url(../image/defaut_top3_1920x500px.jpg);
+        background-image: url(../image/rome_vatican3.jpg);
     };
+    
+    .img-cercle{
+        width: 69%;
+    }
             /* ROME IMAGE TOP 4*/
     .rome-top4-img{
         @extend .rome-top1-img;
@@ -160,10 +198,11 @@ header{
         padding-bottom: 50px;
         padding-left: 20px;
         .rome-top-texte{
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(198, 198, 198, 0.5);
         };
-        margin: 1% 0%;
+        margin: 5% 3%;
     };
+    
 }
 //-----------------------------------------------------------
 /* PARIS */
@@ -227,7 +266,7 @@ header{
         .paris-top-texte{
             background-color: rgba(255, 255, 255, 0.5);
         };
-        margin: 1% 0%;
+        margin: 5% 3%;
     };
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~
