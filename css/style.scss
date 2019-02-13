@@ -153,6 +153,21 @@ header{
         display: block;
     }
 
+    div.style-five {
+        height: 75px;
+        background: #fff url(../image/rome_motorcycle.png) no-repeat scroll left;
+        background-size: 80px 75px;
+        margin-left: 50px;
+        }
+    hr.style-five
+        {
+        width: 81%;
+        margin-top: -40px;
+        border: 0;
+        border-bottom: 2px dashed black;
+        background: #000;
+    }
+
     .text{
         color: white;
         font-size: 150px;
@@ -207,24 +222,31 @@ header{
         display: inline-block;
         justify-content: center;
     };
-    .rome-position-text2{
-        position: relative;
-        padding-left: 12px;
-        padding-right: 10px;
-        padding-top: 10px;
-        margin-top: 10px;
-        left: 5%;
+    
+
+    .rome-position-text2 {
+        position: relative; 
+        background-color: red;
+        height: 100%;
+
     }
 
-    .rome-align-right{
-        float: right;
+    .rome-block-center{
+        height: 50%;
+        margin-top: 50%;
     }
-    .rome-align-left{
-        float: left;
+
+    #top2{
+        img{
+            margin-left: 35%;
+        };
+    };
+    #top4{
+        img{
+            margin-left: 30%;
+        }
     }
-    .rome-position-carousel{
-        background-size: 100%;
-    }
+
             /* ROME IMAGE TOP 2*/
     .rome-top2-img{
         @extend .rome-top1-img;
@@ -242,7 +264,7 @@ header{
             /* ROME IMAGE TOP 4*/
     .rome-top4-img{
         @extend .rome-top1-img;
-        background-image: url(../image/defaut_top4_1920x500px.jpg);
+        background-image: url(../image/rome_basilique-stpierre.jpg);
     };
             /* ROME IMAGETOP 5*/
     .rome-top5-img{
