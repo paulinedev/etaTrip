@@ -50,6 +50,35 @@ header{
         };
         padding: 0px;
     };
+
+        /*ANIMATION TITRE*/
+    .container span{
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .text{
+        color: white;
+        font-size: 150px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        position: relative;
+        animation: text 3s 1;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -40%;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -40%;
+        }
+        85%{
+            letter-spacing: 8px;
+            margin-bottom: -40%;
+        }
+    }
             /* LONDRES TITRE */
     .londres-titre{
         height: 100px;
@@ -118,6 +147,7 @@ header{
         padding: 0px;
     };
 
+        /*ANIMATION TITRE*/
     .container span{
         text-transform: uppercase;
         display: block;
@@ -249,6 +279,34 @@ header{
         };
         padding: 0px;
     };
+        /*ANIMATION TITRE*/
+    .container span{
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .text{
+        color: white;
+        font-size: 150px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        position: relative;
+        animation: text 3s 1;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -40%;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -40%;
+        }
+        85%{
+            letter-spacing: 8px;
+            margin-bottom: -40%;
+        }
+    }
             /* PARIS TITRE */
     .paris-titre{
         height: 100px;
