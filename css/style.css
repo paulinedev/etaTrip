@@ -50,9 +50,10 @@ body {
 /* INDEX */
 button {
   position: absolute;
-  left: 0;
-  color: #ffffff;
-  text-decoration: none; }
+  left: 0; }
+  button a {
+    color: #ffffff;
+    text-decoration: none; }
 
 /* LONDRES */
 .londres {
