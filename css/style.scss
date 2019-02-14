@@ -36,6 +36,12 @@ header{
     background-repeat: no-repeat;
 }
 //-----------------------------------------------------------
+/* INDEX */
+.grr{
+    height: 500px !important;
+    background-color: red;
+};
+//-----------------------------------------------------------
 /* LONDRES */
 .londres{
         /* LONDRES HEADER */
@@ -222,10 +228,10 @@ header{
         display: inline-block;
         justify-content: center;
     };
-    
+
 
     .rome-position-text2 {
-        position: relative; 
+        position: relative;
         background-color: red;
         height: 100%;
 
@@ -295,11 +301,12 @@ header{
         background-repeat: no-repeat;
         text-align: center;
         background-position: center;
+        color: #ffffff;
         h1{
             font-size: 150px;
-            color: #ffffff;
         };
         padding: 0px;
+        padding-bottom: 15px;
     };
         /*ANIMATION TITRE*/
     .container span{
@@ -383,7 +390,48 @@ header{
     };
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~
-/* */
+/* ANIMATION */
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	perspective: 1200px;
+	transform-style: preserve-3d;
+}
+.pt-page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.pt-page-current,
+.no-js .pt-page {
+	visibility: visible;
+}
+.no-js body {
+	overflow: auto;
+}
+.pt-page-ontop {
+	z-index: 999;
+}
+
+.pt-page-scaleDown {
+	animation: scaleDown .7s ease both;
+}
+.pt-page-scaleUp {
+	animation: scaleUp .7s ease both;
+}
+@keyframes scaleDown {
+	to { opacity: 0; transform: scale(.8); }
+}
+@keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
+}
 //-----------------------------------------------------------
 /*FOOTER*/
 footer{

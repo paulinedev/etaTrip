@@ -1,0 +1,74 @@
+.londres-header{
+  background-image: url(../image/londres/londres-header.jpg);
+  background-size: auto;
+  height: 400px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.text{
+  font-family:'Staatliches', cursive;
+}
+h2{
+  font-family:'Staatliches', cursive;
+  font-size: 3rem;
+  margin-bottom: -10px;
+  margin-top: 15px;
+}
+
+h3{
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 1rem;
+}
+h4{
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  margin: 15px;
+  margin-top: 25px;
+  text-align: left;
+}
+h5{
+  font-family:'PT Serif', serif;
+  font-size: 8rem;
+  margin-bottom: -50px;
+  padding-bottom: 0px;
+}
+p{
+  margin: 15px;
+  text-align: left;
+}
+.londres .londres-top1-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img, .londres .londres-top5-img, .londres .londres-top4-img, .londres .londres-top3-img, .londres .londres-top2-img {
+  background-image: url(../image/londres/londres-top1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 0px;
+}
+.londres .londres-top2-img {
+  background-image: url(../image/londres/londres-top2.jpg);
+}
+.londres .londres-top3-img {
+  background-image: url(../image/londres/londres-top3.jpg);
+}
+.londres .londres-top4-img {
+  background-image: url(../image/londres/londres-top4.jpg);
+}
+.londres .londres-top5-img {
+  background-image: url(../image/londres/londres-top5.jpg);
+}
+.londres .londres-top .londres-top-texte {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.soldat{
+  position: fixed;
+     bottom: 0;
+     right: 0;
+     width: 10%;
+}
+#londres{
+  height: 150px;
+}

@@ -1,0 +1,40 @@
+body{
+  background-image: url("home/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.titre{
+  text-align: center;
+  padding: 50px;
+}
+h1{
+  font-size: 90px;
+  color: white;
+}
+p{
+  color: white;
+  font-size: 20px;
+}
+
+.monuments{
+  padding-left: 20px;
+  padding-right: 20px;
+  position:  fixed;
+  width: 100vw;
+  bottom: 0;
+}
+.icone{
+  position: absolute;
+  right: -250px;
+  bottom: 0;
+}
+
+.monument-container{
+  width: 300px;
+  display: flex;
+  justify: center;
+}
+.pt-wrapper{
+  height: 500px;
+}
