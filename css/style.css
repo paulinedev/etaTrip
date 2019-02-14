@@ -54,6 +54,9 @@ button {
   button a {
     color: #ffffff;
     text-decoration: none; }
+    button a:hover {
+      color: #000000;
+      text-decoration: none; }
 
 /* LONDRES */
 .londres {

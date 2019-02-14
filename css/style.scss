@@ -71,6 +71,10 @@ button{
     a{
         color: #ffffff;
         text-decoration: none;
+        &:hover{
+            color: #000000;
+            text-decoration: none;
+        }
     };
 }
 //-----------------------------------------------------------
