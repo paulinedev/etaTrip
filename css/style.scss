@@ -325,10 +325,55 @@ button{
         padding-left: 20px;
         .rome-top-texte{
             background-color: rgba(198, 198, 198, 0.5);
-        };
+        }
         margin: 5% 3%;
-    };
+    }
 
+
+
+.example-1 .sticker-img {
+
+background-image: url(../image/colisee-rome.jpg);
+background-size: cover;
+
+}
+
+.example-2 .sticker-img {
+
+background-image: url(../image/rome_fontaine_trevi.jpg);
+background-size: cover;
+
+}
+
+.example-3 .sticker-img {
+
+background-image: url(../image/rome_musee_vatican.jpg);
+background-size: cover;
+
+}
+
+.example-4 .sticker-img {
+
+background-image: url(../image/rome_basilique-stpierre.jpg);
+background-size: cover;
+
+}
+
+.example-5 .sticker-img {
+
+background-image: url(../image/rome_pasta.jpg);
+background-size: cover;
+
+}
+
+// change shadow opacity
+
+.example-2 .sticker-shadow {
+
+opacity: 0.6;
+
+}
+    
 }
 //-----------------------------------------------------------
 /* PARIS */
