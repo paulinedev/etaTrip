@@ -8,6 +8,10 @@
   margin-bottom: 10px;
 }
 
+.row {
+  margin-right: 0px;
+}
+
 .text{
   font-family:'Staatliches', cursive;
 }
@@ -71,4 +75,14 @@ p{
 }
 #londres{
   height: 150px;
+}
+#londres2{
+  height: 150px;
+  opacity: 0;
+}
+.soldat2{
+  position: fixed;
+     bottom: 0;
+     right: 0;
+     width: 10%;
 }

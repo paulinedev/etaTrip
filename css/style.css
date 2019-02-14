@@ -4,59 +4,73 @@
 /* sass --watch style.scss:style.css */
 /* CODER DANS LE *SCSS* */
 * h2 {
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-size: 3rem;
   margin-bottom: -10px;
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 * h3 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: white;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 * h4 {
   font-size: 1.5rem;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: bold;
   margin: 15px;
   margin-top: 25px;
-  text-align: left; }
+  text-align: left;
+}
 * h5 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 8rem;
   margin-bottom: -50px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+}
 * p {
   margin: 15px;
-  text-align: left; }
+  text-align: left;
+}
 * p {
-  font-family: 'PT Serif'; }
+  font-family: "PT Serif";
+}
 * .no-spacing {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+}
 
 /*BODY*/
 body {
   background-color: #ffffff;
-  padding: 0.09%; }
+  padding: 0.09%;
+}
 
 /*HEADER*/
 .no-spacing {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+}
 
 .background {
   background-size: auto;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 /* INDEX */
 button {
   position: absolute;
-  left: 0; }
-  button a {
-    color: #ffffff;
-    text-decoration: none; }
-    button a:hover {
-      color: #000000;
-      text-decoration: none; }
+  left: 0;
+  margin: 10px;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:hover {
+  color: #000000;
+  text-decoration: none;
+}
 
 /* LONDRES */
 .londres {
@@ -71,61 +85,79 @@ button {
   /* LONDRES IMAGETOP 5*/
   /*
   LONDRES TOP
-  */ }
-  .londres .londres-header {
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0px; }
-    .londres .londres-header h1 {
-      font-size: 150px;
-      color: #ffffff; }
-  .londres .container span {
-    text-transform: uppercase;
-    display: block; }
-  .londres .text {
-    color: white;
-    font-size: 150px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    position: relative;
-    animation: text 3s 1; }
+  */
+}
+.londres .londres-header {
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+}
+.londres .londres-header h1 {
+  font-size: 150px;
+  color: #ffffff;
+}
+.londres .container span {
+  text-transform: uppercase;
+  display: block;
+}
+.londres .text {
+  color: white;
+  font-size: 150px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  position: relative;
+  animation: text 3s 1;
+}
 @keyframes text {
   0% {
     color: black;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   30% {
     letter-spacing: 25px;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   85% {
     letter-spacing: 8px;
-    margin-bottom: -40%; } }
-  .londres .londres-titre {
-    height: 100px;
-    text-align: center;
-    padding: 2%; }
-  .londres .londres-carte {
-    text-align: center;
-    padding-bottom: 1%; }
-  .londres .londres-top1-img, .londres .londres-top2-img, .londres .londres-top3-img, .londres .londres-top4-img, .londres .londres-top5-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img {
-    background-image: url(../image/defaut_top1_1920x500px.jpg);
-    background-size: auto;
-    background-repeat: no-repeat; }
-  .londres .londres-top2-img {
-    background-image: url(../image/defaut_top2_1920x500px.jpg); }
-  .londres .londres-top3-img {
-    background-image: url(../image/defaut_top3_1920x500px.jpg); }
-  .londres .londres-top4-img {
-    background-image: url(../image/defaut_top4_1920x500px.jpg); }
-  .londres .londres-top5-img {
-    background-image: url(../image/defaut_top5_1920x500px.jpg); }
-  .londres .londres-top {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    margin: 5% 3%; }
-    .londres .londres-top .londres-top-texte {
-      background-color: rgba(255, 255, 255, 0.5); }
+    margin-bottom: -40%;
+  }
+}
+.londres .londres-titre {
+  height: 100px;
+  text-align: center;
+  padding: 2%;
+}
+.londres .londres-carte {
+  text-align: center;
+  padding-bottom: 1%;
+}
+.londres .londres-top1-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img, .londres .londres-top5-img, .londres .londres-top4-img, .londres .londres-top3-img, .londres .londres-top2-img {
+  background-image: url(../image/defaut_top1_1920x500px.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.londres .londres-top2-img {
+  background-image: url(../image/defaut_top2_1920x500px.jpg);
+}
+.londres .londres-top3-img {
+  background-image: url(../image/defaut_top3_1920x500px.jpg);
+}
+.londres .londres-top4-img {
+  background-image: url(../image/defaut_top4_1920x500px.jpg);
+}
+.londres .londres-top5-img {
+  background-image: url(../image/defaut_top5_1920x500px.jpg);
+}
+.londres .londres-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  margin: 5% 3%;
+}
+.londres .londres-top .londres-top-texte {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 /* ROME */
 .rome {
@@ -141,99 +173,125 @@ button {
   /* ROME IMAGETOP 5*/
   /*
   ROME TOP
-  */ }
-  .rome .rome-header {
-    background-image: url(../image/rome_header.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    letter-spacing: 8px;
-    background-position: bottom;
-    padding: 0px; }
-    .rome .rome-header h1 {
-      font-size: 150px;
-      color: #ffffff; }
-  .rome .container span {
-    text-transform: uppercase;
-    display: block; }
-  .rome div.style-five {
-    height: 75px;
-    margin-left: 50px; }
-  .rome hr.style-five {
-    width: 81%;
-    margin-top: -40px;
-    border: 0;
-    border-bottom: 2px dashed black;
-    background: #000; }
-  .rome .text {
-    color: white;
-    font-size: 150px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    position: relative;
-    animation: text 3s 1; }
+  */
+}
+.rome .rome-header {
+  background-image: url(../image/rome_header.jpg);
+  background-size: auto;
+  height: 400px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: bottom;
+  padding: 0px;
+}
+.rome .rome-header h1 {
+  font-size: 150px;
+  color: #ffffff;
+}
+.rome .container span {
+  text-transform: uppercase;
+  display: block;
+}
+.rome div.style-five {
+  height: 75px;
+  margin-left: 50px;
+}
+.rome hr.style-five {
+  width: 81%;
+  margin-top: -40px;
+  border: 0;
+  border-bottom: 2px dashed black;
+  background: #000;
+}
+.rome .text {
+  color: white;
+  font-size: 150px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  position: relative;
+  animation: text 3s 1;
+}
 @keyframes text {
   0% {
     color: black;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   30% {
     letter-spacing: 25px;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   85% {
     letter-spacing: 8px;
-    margin-bottom: -40%; } }
-  .rome .rome-titre {
-    height: 100px;
-    text-align: center;
-    padding: 2%; }
-  .rome .rome-carte {
-    text-align: center;
-    padding-bottom: 1%;
-    background-image: url(../image/defaut_carte_600x600px.jpg);
-    background-size: auto;
-    background-repeat: no-repeat; }
-  .rome .rome-top1-img, .rome .rome-top2-img, .rome .rome-top3-img, .rome .rome-top4-img, .rome .rome-top5-img {
-    background-image: url(../image/rome_colisee2.jpg);
-    background-size: auto;
-    background-repeat: no-repeat; }
-  .rome .rome-position-text {
-    width: 50%;
-    position: absolute;
-    right: 5%;
-    padding-left: 12px;
-    padding-right: 10px;
-    padding-top: 10px;
-    margin-top: 10px;
-    display: inline-block;
-    justify-content: center; }
-  .rome .rome-position-text2 {
-    position: relative;
-    background-color: red;
-    height: 100%; }
-  .rome .rome-block-center {
-    height: 50%;
-    margin-top: 50%; }
-  .rome #top2 img {
-    margin-left: 35%; }
-  .rome #top4 img {
-    margin-left: 30%; }
-  .rome .rome-top2-img {
-    background-image: url(../image/rome_trevi2.jpg); }
-  .rome .rome-top3-img {
-    background-image: url(../image/rome_vatican3.jpg); }
-  .rome .img-cercle {
-    width: 100%; }
-  .rome .rome-top4-img {
-    background-image: url(../image/rome_basilique-stpierre.jpg); }
-  .rome .rome-top5-img {
-    background-image: url(../image/defaut_top5_1920x500px.jpg); }
-  .rome .rome-top {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    margin: 5% 3%; }
-    .rome .rome-top .rome-top-texte {
-      background-color: rgba(198, 198, 198, 0.5); }
+    margin-bottom: -40%;
+  }
+}
+.rome .rome-titre {
+  height: 100px;
+  text-align: center;
+  padding: 2%;
+}
+.rome .rome-carte {
+  text-align: center;
+  padding-bottom: 1%;
+  background-image: url(../image/defaut_carte_600x600px.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.rome .rome-top1-img, .rome .rome-top5-img, .rome .rome-top4-img, .rome .rome-top3-img, .rome .rome-top2-img {
+  background-image: url(../image/rome_colisee2.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.rome .rome-position-text {
+  width: 50%;
+  position: absolute;
+  right: 5%;
+  padding-left: 12px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  justify-content: center;
+}
+.rome .rome-position-text2 {
+  position: relative;
+  background-color: red;
+  height: 100%;
+}
+.rome .rome-block-center {
+  height: 50%;
+  margin-top: 50%;
+}
+.rome #top2 img {
+  margin-left: 35%;
+}
+.rome #top4 img {
+  margin-left: 30%;
+}
+.rome .rome-top2-img {
+  background-image: url(../image/rome_trevi2.jpg);
+}
+.rome .rome-top3-img {
+  background-image: url(../image/rome_vatican3.jpg);
+}
+.rome .img-cercle {
+  width: 100%;
+}
+.rome .rome-top4-img {
+  background-image: url(../image/rome_basilique-stpierre.jpg);
+}
+.rome .rome-top5-img {
+  background-image: url(../image/defaut_top5_1920x500px.jpg);
+}
+.rome .rome-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  margin: 5% 3%;
+}
+.rome .rome-top .rome-top-texte {
+  background-color: rgba(198, 198, 198, 0.5);
+}
 
 /* PARIS */
 .paris {
@@ -249,67 +307,86 @@ button {
   /* PARIS IMAGETOP 5*/
   /*
   PARIS TOP
-  */ }
-  .paris .paris-header {
-    background-image: url(../image/paris_header_1920x600px.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: center;
-    color: #ffffff;
-    padding: 0px;
-    padding-bottom: 15px; }
-    .paris .paris-header h1 {
-      font-size: 150px; }
-  .paris .container span {
-    text-transform: uppercase;
-    display: block; }
-  .paris .text {
-    color: white;
-    font-size: 150px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    position: relative;
-    animation: text 3s 1; }
+  */
+}
+.paris .paris-header {
+  background-image: url(../image/paris_header_1920x600px.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+  background-position: center;
+  color: #ffffff;
+  padding: 0px;
+  padding-bottom: 15px;
+}
+.paris .paris-header h1 {
+  font-size: 150px;
+}
+.paris .container span {
+  text-transform: uppercase;
+  display: block;
+}
+.paris .text {
+  color: white;
+  font-size: 150px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  position: relative;
+  animation: text 3s 1;
+}
 @keyframes text {
   0% {
     color: black;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   30% {
     letter-spacing: 25px;
-    margin-bottom: -40%; }
+    margin-bottom: -40%;
+  }
   85% {
     letter-spacing: 8px;
-    margin-bottom: -40%; } }
-  .paris .paris-titre {
-    height: 100px;
-    text-align: center;
-    padding: 2%; }
-  .paris .paris-carte {
-    text-align: center;
-    padding-bottom: 1%;
-    background-image: url(../image/defaut_carte_600x600px.jpg); }
-  .paris .paris-top1-img, .paris .paris-top2-img, .paris .paris-top3-img, .paris .paris-top5-img {
-    background-image: url(../image/paris_top1_1920x500px.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .paris .paris-top2-img {
-    background-image: url(../image/paris_top2_1920x500px.jpg); }
-  .paris .paris-top3-img {
-    background-image: url(../image/paris_top3_1920x500px.jpg); }
-  .paris .paris-top4-img {
-    background-image: url(../image/paris_top4_1920x500px.jpg);
-    background-position: bottom; }
-  .paris .paris-top5-img {
-    background-image: url(../image/paris_top5_1920x500px.jpg); }
-  .paris .paris-top {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    margin: 4% 3%; }
-    .paris .paris-top .paris-top-texte {
-      background-color: rgba(255, 255, 255, 0.7); }
+    margin-bottom: -40%;
+  }
+}
+.paris .paris-titre {
+  height: 100px;
+  text-align: center;
+  padding: 2%;
+}
+.paris .paris-carte {
+  text-align: center;
+  padding-bottom: 1%;
+  background-image: url(../image/defaut_carte_600x600px.jpg);
+}
+.paris .paris-top1-img, .paris .paris-top5-img, .paris .paris-top3-img, .paris .paris-top2-img {
+  background-image: url(../image/paris_top1_1920x500px.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paris .paris-top2-img {
+  background-image: url(../image/paris_top2_1920x500px.jpg);
+}
+.paris .paris-top3-img {
+  background-image: url(../image/paris_top3_1920x500px.jpg);
+}
+.paris .paris-top4-img {
+  background-image: url(../image/paris_top4_1920x500px.jpg);
+  background-position: bottom;
+}
+.paris .paris-top5-img {
+  background-image: url(../image/paris_top5_1920x500px.jpg);
+}
+.paris .paris-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  margin: 4% 3%;
+}
+.paris .paris-top .paris-top-texte {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 
 /*  */
 /*FOOTER*/
@@ -317,5 +394,34 @@ button {
   TABLETTE */
 /* RESPONSIVE
   SMARTPHONE */
+@media screen and (max-width: 768px) {
+  .text {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+  }
+
+  @keyframes text {
+    visibility: hidden;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+
+  .paris-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 4% 3%;
+  }
+  .paris-top .paris-top-texte {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+.text {
+  font-family: "Staatliches", cursive;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -68,6 +68,7 @@ header{
 button{
     position: absolute;
     left: 0;
+    margin: 10px;
     a{
         color: #ffffff;
         text-decoration: none;
@@ -178,9 +179,9 @@ button{
     .rome-header{
         background-image: url(../image/rome_header.jpg);
         background-size: auto;
+        height: 400px;
         background-repeat: no-repeat;
         text-align: center;
-        letter-spacing: 8px;
         background-position: bottom;
         h1{
             font-size: 150px;
@@ -339,6 +340,7 @@ button{
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
+        height: 400px;
         background-position: center;
         color: #ffffff;
         h1{
@@ -445,5 +447,30 @@ footer{
 /* RESPONSIVE
   SMARTPHONE */
 @media screen and (max-width: 768px){
-
+  .text{
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      position: relative;
+  }
+  @keyframes text {
+    visibility: hidden;
+  }
+  .hidden{
+    visibility: hidden
+  }
+  .paris-top{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      .paris-top-texte{
+          background-color: rgba(255, 255, 255, 0.7);
+      };
+      margin: 4% 3%;
+  };
 };
+
+.text{
+  font-family:'Staatliches', cursive;
+}

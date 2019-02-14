@@ -9,12 +9,14 @@ body{
   padding: 50px;
 }
 h1{
+  font-family:'Staatliches', cursive;
   font-size: 90px;
   color: white;
 }
 p{
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 
 .monuments{
@@ -37,4 +39,12 @@ p{
 }
 .pt-wrapper{
   height: 500px;
+}
+@media screen and (max-width: 768px) {
+  body{
+    background-image: url("home/backgroundmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
 }
