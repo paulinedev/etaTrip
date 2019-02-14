@@ -3,8 +3,30 @@
 /* cd D:\Desktop/EtaTrip/css */
 /* sass --watch style.scss:style.css */
 /* CODER DANS LE *SCSS* */
-* h1 {
-  font-family: 'Staatliches'; }
+* h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  margin-bottom: -10px;
+  margin-top: 15px; }
+* h3 {
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 1rem; }
+* h4 {
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  margin: 15px;
+  margin-top: 25px;
+  text-align: left; }
+* h5 {
+  font-family: 'PT Serif', serif;
+  font-size: 8rem;
+  margin-bottom: -50px;
+  padding-bottom: 0px; }
+* p {
+  margin: 15px;
+  text-align: left; }
 * p {
   font-family: 'PT Serif'; }
 * .no-spacing {
@@ -26,9 +48,11 @@ body {
   background-repeat: no-repeat; }
 
 /* INDEX */
-.grr {
-  height: 500px !important;
-  background-color: red; }
+button {
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  text-decoration: none; }
 
 /* LONDRES */
 .londres {
@@ -103,6 +127,7 @@ body {
 .rome {
   /* ROME HEADER */
   /*ANIMATION TITRE*/
+  /*HR VESPA*/
   /* ROME TITRE */
   /* ROME CARTE */
   /* ROME IMAGE TOP 1*/
@@ -129,8 +154,6 @@ body {
     display: block; }
   .rome div.style-five {
     height: 75px;
-    background: #fff url(../image/rome_motorcycle.png) no-repeat scroll left;
-    background-size: 80px 75px;
     margin-left: 50px; }
   .rome hr.style-five {
     width: 81%;
@@ -195,7 +218,7 @@ body {
   .rome .rome-top3-img {
     background-image: url(../image/rome_vatican3.jpg); }
   .rome .img-cercle {
-    width: 69%; }
+    width: 100%; }
   .rome .rome-top4-img {
     background-image: url(../image/rome_basilique-stpierre.jpg); }
   .rome .rome-top5-img {

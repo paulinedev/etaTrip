@@ -5,9 +5,37 @@
 /* CODER DANS LE *SCSS* */
 
 *{
-    h1{
-        font-family: 'Staatliches';
-    };
+
+    h2{
+      font-family:'Staatliches', cursive;
+      font-size: 3rem;
+      margin-bottom: -10px;
+      margin-top: 15px;
+    }
+
+    h3{
+      font-family: 'PT Serif', serif;
+      color: white;
+      font-size: 1rem;
+    }
+    h4{
+      font-size: 1.5rem;
+      font-family: 'PT Serif', serif;
+      font-weight: bold;
+      margin: 15px;
+      margin-top: 25px;
+      text-align: left;
+    }
+    h5{
+      font-family:'PT Serif', serif;
+      font-size: 8rem;
+      margin-bottom: -50px;
+      padding-bottom: 0px;
+    }
+    p{
+      margin: 15px;
+      text-align: left;
+    }
     p{
         font-family: 'PT Serif';
     };
@@ -37,10 +65,12 @@ header{
 }
 //-----------------------------------------------------------
 /* INDEX */
-.grr{
-    height: 500px !important;
-    background-color: red;
-};
+button{
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    text-decoration: none;
+}
 //-----------------------------------------------------------
 /* LONDRES */
 .londres{
@@ -231,10 +261,10 @@ header{
         display: inline-block;
         justify-content: center;
     };
-    
+
 
     .rome-position-text2 {
-        position: relative; 
+        position: relative;
         background-color: red;
         height: 100%;
 
