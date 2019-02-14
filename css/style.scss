@@ -159,10 +159,9 @@ header{
         display: block;
     }
 
+        /*HR VESPA*/
     div.style-five {
         height: 75px;
-        background: #fff url(../image/rome_motorcycle.png) no-repeat scroll left;
-        background-size: 80px 75px;
         margin-left: 50px;
         }
     hr.style-five
@@ -173,6 +172,7 @@ header{
         border-bottom: 2px dashed black;
         background: #000;
     }
+
 
     .text{
         color: white;
@@ -196,6 +196,9 @@ header{
             margin-bottom: -40%;
         }
     }
+
+
+
             /* ROME TITRE */
     .rome-titre{
         height: 100px;
@@ -228,10 +231,10 @@ header{
         display: inline-block;
         justify-content: center;
     };
-
+    
 
     .rome-position-text2 {
-        position: relative;
+        position: relative; 
         background-color: red;
         height: 100%;
 
@@ -265,7 +268,7 @@ header{
     };
 
     .img-cercle{
-        width: 69%;
+        width: 100%;
     }
             /* ROME IMAGE TOP 4*/
     .rome-top4-img{
