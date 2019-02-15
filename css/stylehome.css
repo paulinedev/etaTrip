@@ -42,8 +42,22 @@ p{
 }
 @media screen and (max-width: 768px) {
   body{
-    background-image: url("home/backgroundmobile.jpg");
-    background-size: cover;
+    background-image: url("home/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  h1{
+    font-size: 50px;
+  }
+.titre{
+  margin-top: 50px;
+}
+}
+@media screen and (max-width: 1000px) {
+  body{
+    background-image: url("home/background.jpg");
+    background-size: auto;
     background-repeat: no-repeat;
     overflow: hidden;
   }
