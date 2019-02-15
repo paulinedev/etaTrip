@@ -86,3 +86,30 @@ p{
      right: 0;
      width: 10%;
 }
+  @media screen and (max-width: 610px) {
+    .text{
+      font-size: 80px !important;
+      top: 100px;
+    }
+    h3{
+      margin-top: 90px !important;
+    }
+    h2{
+      font-size: 30px;
+    }
+    .londres .londres-top .londres-top-texte {
+      background-color: rgba(255, 255, 255, 0);
+    }
+    .londres-top-texte{
+      margin-top: 450px;
+    }
+    .top{
+      margin-top: 600px;
+    }
+    .londres .londres-top1-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img, .londres .londres-top5-img, .londres .londres-top4-img, .londres .londres-top3-img, .londres .londres-top2-img {
+      background-position: center;
+    }
+    #top2{
+      background-position: right;
+    }
+  }
