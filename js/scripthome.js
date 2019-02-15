@@ -4,13 +4,13 @@ $( document ).ready(function() {
 });
 
 var monuments = [
-  {url: "monuments/bigben.png", id:"bigben", page:"londres.html"},
-  {url: "monuments/toureiffel.png", id:"eiffel", page:"paris.html"},
-  {url: "monuments/colisee.png", id:"colisee", page:"rome.html"},
-  {url: "monuments/gherkin.png", id:"gherkin", page:"londres.html"},
-  {url: "monuments/arc.png", id:"arc", page:"paris.html"},
-  {url: "monuments/londoneye.png", id:"londoneye", page:"londres.html"},
-  {url: "monuments/notredame.png", id:"dame", page:"paris.html"},
+  {url: "image/monuments/bigben.png", id:"bigben", page:"londres.html"},
+  {url: "image/monuments/toureiffel.png", id:"eiffel", page:"paris.html"},
+  {url: "image/monuments/colisee.png", id:"colisee", page:"rome.html"},
+  {url: "image/monuments/gherkin.png", id:"gherkin", page:"londres.html"},
+  {url: "image/monuments/arc.png", id:"arc", page:"paris.html"},
+  {url: "image/monuments/londoneye.png", id:"londoneye", page:"londres.html"},
+  {url: "image/monuments/notredame.png", id:"dame", page:"paris.html"},
 ];
 
 var model = '<div class="monument-container"><a href="{{page}}"><img id="{{id}}" class="icone" src="{{url}}" alt="monument"></a></div>';
