@@ -1,1 +1,0 @@
-Sticker.init('.sticker');
