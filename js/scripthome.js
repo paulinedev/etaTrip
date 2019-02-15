@@ -9,8 +9,10 @@ var monuments = [
   {url: "image/monuments/colisee.png", id:"colisee", page:"rome.html"},
   {url: "image/monuments/gherkin.png", id:"gherkin", page:"londres.html"},
   {url: "image/monuments/arc.png", id:"arc", page:"paris.html"},
+  {url: "image/monuments/vactican.png", id:"vactican", page:"rome.html"},
   {url: "image/monuments/londoneye.png", id:"londoneye", page:"londres.html"},
   {url: "image/monuments/notredame.png", id:"dame", page:"paris.html"},
+  {url: "image/monuments/forum.png", id:"forum", page:"rome.html"},
 ];
 
 var model = '<div class="monument-container"><a href="{{page}}"><img id="{{id}}" class="icone" src="{{url}}" alt="monument"></a></div>';

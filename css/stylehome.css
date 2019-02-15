@@ -53,6 +53,31 @@ p{
 .titre{
   margin-top: 50px;
 }
+.paris-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 4% 3%;
+}
+.paris-top .paris-top-texte {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.text {
+  font-family: "Staatliches", cursive;
+  top:80px;
+}
+h3{
+  margin-top: 50px !important;
+}
+h2{
+  font-size: 30px;
+}
+.paris .paris-top .paris-top-texte {
+  background-color: rgba(255, 255, 255, 0);
+}
+.paris-top-texte{
+  margin-top: 700px;
+}
 }
 @media screen and (max-width: 1000px) {
   body{
