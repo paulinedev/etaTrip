@@ -200,12 +200,25 @@ button{
         margin-left: 50px;
         }
     hr.style-five {
-        width: 81%;
+        width: 100%;
         margin-top: -40px;
         border: 0;
         border-bottom: 2px dashed black;
         background: #000;
     };
+
+    #romeScooter1 {
+        left: 35%;
+        position: relative;
+    }
+    #romeScooter2 {
+        left: 65%;
+        position: relative;
+    }
+    #romeScooter3 {
+        left: 95%;
+        position: relative;
+    }
 
     .text{
         color: white;
@@ -347,7 +360,7 @@ button{
     };
     .example-5 {
         .sticker-img {
-            background-image: url(../image/rome/rome_pasta.jpg);
+            background-image: url(../image/rome/rome_pasta2.jpg);
             background-size: cover;
         };
     };
