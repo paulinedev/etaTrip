@@ -13,6 +13,7 @@
   font-family: "PT Serif", serif;
   color: white;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 * h4 {
   font-size: 1.5rem;
@@ -183,6 +184,7 @@ button a:hover {
   letter-spacing: 8px;
   background-position: bottom;
   padding: 0px;
+  height: 400px
 }
 .rome .rome-header h1 {
   font-size: 150px;

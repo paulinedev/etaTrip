@@ -17,6 +17,7 @@
       font-family: 'PT Serif', serif;
       color: white;
       font-size: 1rem;
+      letter-spacing: normal !important;
     }
     h4{
       font-size: 1.5rem;
@@ -181,8 +182,9 @@ button{
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
-        letter-spacing: 8px;
+        letter-spacing: normal;
         background-position: bottom;
+        height: 400px;
         h1{
             font-size: 150px;
             color: #ffffff;
@@ -224,7 +226,7 @@ button{
         color: white;
         font-size: 150px;
         font-weight: 700;
-        letter-spacing: 8px;
+        letter-spacing: normal;
         position: relative;
         animation: text 3s 1;
     };
@@ -509,6 +511,9 @@ footer{
       };
       margin: 4% 3%;
   };
+  .paris-titre{
+    font-size: 35px;
+  }
 };
 
 .text{
