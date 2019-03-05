@@ -45,6 +45,14 @@ p{
   margin: 15px;
   text-align: left;
 }
+h6{
+  font-family:'PT Serif', serif;
+  font-size: 3rem;
+  text-align: center;
+}
+#temperature{
+  text-align: center;
+}
 .londres .londres-top1-img, .londres .paris .paris-top4-img, .paris .londres .paris-top4-img, .londres .londres-top5-img, .londres .londres-top4-img, .londres .londres-top3-img, .londres .londres-top2-img {
   background-image: url(../image/londres/londres-top1.jpg);
   background-size: auto;
