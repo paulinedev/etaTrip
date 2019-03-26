@@ -121,3 +121,16 @@ h6{
       background-position: right;
     }
   }
+.temp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.illu{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}

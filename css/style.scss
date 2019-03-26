@@ -1,7 +1,7 @@
 /* invite de commande */
 /* D: */
 /* cd D:\Desktop/EtaTrip/css */
-/* sass --watch style.scss:style.css */
+/* sass --watch style.scss:style.css    */
 /* CODER DANS LE *SCSS* */
 
 *{
@@ -473,7 +473,28 @@ button{
     };
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~
-/*  */
+/* METEO */
+.soleil{
+  margin-left: 500px;
+  display: inline-block;
+  visibility: hidden;
+}
+.nuage{
+    @extend .soleil;
+    margin-left: -535px;
+}
+.pluie{
+    @extend .soleil;
+    margin-left: -535px;
+}
+.ensolleillé{
+    @extend .soleil;
+    margin-left: -535px;
+}
+.neige{
+    @extend .soleil;
+    margin-left: -535px;
+}
 //-----------------------------------------------------------
 /*FOOTER*/
 footer{
