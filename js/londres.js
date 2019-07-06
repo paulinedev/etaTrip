@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     console.log( "ready!" );
+  	Sticker.init('.sticker');
     $('.nb').hover(function(){
       $(this).css('color', '#FF847A')
     });
@@ -14,26 +15,24 @@ $( document ).ready(function() {
     //LA METEO
     $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=london,uk&units=metric&appid=2ebe19fb2e7dc8831190daf8260d7761", function (response){
         var temperature = response.main.temp;
-        // var rain = response.rain;1h;
+        var temps = response.weather.id;
         var cloud = response.clouds.all;
 
         // afficher soleil etc.
-        var changeImage = document.getElementsByClassName('illu');
-        if (cloud < 50){
-          console.log("ensolleillé")
-
+        // var changeImage = document.getElementsByClassName('illu');
+        if(temps = "Rain"){
+            $("#pluie").show();
+        } else if(temps ="Snow"){
+          $("#neige").show();
+        } else if (cloud < 50){
+            $('#ensolleille').show();
+        } else if (cloud >= 50){
+            if (cloud < 100){
+                $('#soleil').show();
+            } else {
+                $("#nuage").show();
+            }
         }
-        else if (cloud > 50){
-          if (cloud < 100){
-            $(".sn").css('opacity','1');
-            console.log("soleil + nuages")
-          } else {
-            console.log("nuages")
-          }
-        }
-        //   else if(rain > 0.1){
-          //     console.log("il pleut");
-          // }
 
 
         // alert("Il fait actuellement "+temperature+"°C à Londres !");

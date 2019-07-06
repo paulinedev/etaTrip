@@ -41,14 +41,14 @@ h5{
   margin-bottom: -50px;
   padding-bottom: 0px;
 }
-p{
-  margin: 15px;
-  text-align: left;
-}
 h6{
   font-family:'PT Serif', serif;
   font-size: 3rem;
   text-align: center;
+}
+p{
+  margin: 15px;
+  text-align: left;
 }
 #temperature{
   text-align: center;
@@ -127,10 +127,11 @@ h6{
   justify-content: center;
   align-items: center;
 }
-.illu{
-  width: 400px;
-  height: 500px;
-  display: flex;
+.icone{
+  width: 25%;
+  height: auto;
+  margin : 0 auto;
+  display: inline-block;
   justify-content: center;
-  opacity: 0;
+  display: none;
 }

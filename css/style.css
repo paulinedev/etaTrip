@@ -26,14 +26,31 @@
   font-size: 8rem;
   margin-bottom: -50px;
   padding-bottom: 0px; }
+* h6{
+    font-family:'PT Serif', serif;
+    font-size: 3rem;
+    text-align: center;
+  }
 * p {
   margin: 15px;
-  text-align: left; }
-* p {
+  text-align: left;
   font-family: 'PT Serif'; }
 * .no-spacing {
   margin: 0%;
   padding: 0%; }
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+  }
+  footer h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+  }
+  footer p{
+    text-align: center;
+  }
 
 /*BODY*/
 body {
@@ -129,6 +146,21 @@ button {
     margin: 5% 3%; }
     .londres .londres-top .londres-top-texte {
       background-color: rgba(255, 255, 255, 0.5); }
+  .londres .example-6 .sticker-img {
+    background-image: url(../image/rome/colisee-rome.jpg);
+    background-size: cover; }
+  .londres .example-7 .sticker-img {
+    background-image: url(../image/rome/colisee-rome.jpg);
+    background-size: cover; }
+  .londres .example-8 .sticker-img {
+    background-image: url(../image/rome/colisee-rome.jpg);
+    background-size: cover; }
+  .londres .example-9 .sticker-img {
+    background-image: url(../image/rome/colisee-rome.jpg);
+    background-size: cover; }
+  .londres .example-10 .sticker-img {
+    background-image: url(../image/rome/colisee-rome.jpg);
+    background-size: cover; }
 
 /* ROME */
 .rome {
@@ -185,6 +217,20 @@ button {
     letter-spacing: normal;
     position: relative;
     animation: text 3s 1; }
+    .rome .temp{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .rome .icone{
+      width: 25%;
+      height: auto;
+      margin : 0 auto;
+      display: inline-block;
+      justify-content: center;
+      display: none;
+    }
 @keyframes text {
   0% {
     color: black;
@@ -302,6 +348,20 @@ button {
     letter-spacing: 8px;
     position: relative;
     animation: text 3s 1; }
+    .paris .temp{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .paris .icone{
+      width: 25%;
+      height: auto;
+      margin : 0 auto;
+      display: inline-block;
+      justify-content: center;
+      display: none;
+    }
 @keyframes text {
   0% {
     color: black;
@@ -345,8 +405,7 @@ button {
 /* METEO */
 .soleil, .nuage, .pluie, .ensolleill├®, .neige {
   margin-left: 500px;
-  display: inline-block;
-  visibility: hidden; }
+  display: inline-block; }
 
 .nuage {
   margin-left: -535px; }
@@ -359,6 +418,10 @@ button {
 
 .neige {
   margin-left: -535px; }
+
+.illu img {
+  width: 100%;
+  height: auto; }
 
 /*FOOTER*/
 /* RESPONSIVE

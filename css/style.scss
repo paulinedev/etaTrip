@@ -172,6 +172,43 @@ button{
         };
         margin: 5% 3%;
     };
+
+    .example-6 {
+        .sticker-img {
+            background-image: url(../image/rome/colisee-rome.jpg);
+            background-size: cover;
+
+        };
+    };
+    .example-7 {
+        .sticker-img {
+            background-image: url(../image/rome/colisee-rome.jpg);
+            background-size: cover;
+
+        };
+    };
+    .example-8 {
+        .sticker-img {
+            background-image: url(../image/rome/colisee-rome.jpg);
+            background-size: cover;
+
+        };
+    };
+    .example-9 {
+        .sticker-img {
+            background-image: url(../image/rome/colisee-rome.jpg);
+            background-size: cover;
+
+        };
+    };
+    .example-10 {
+        .sticker-img {
+            background-image: url(../image/rome/colisee-rome.jpg);
+            background-size: cover;
+
+        };
+    };
+
 };
 //-----------------------------------------------------------
 /* ROME */
@@ -340,6 +377,7 @@ button{
         .sticker-img {
             background-image: url(../image/rome/colisee-rome.jpg);
             background-size: cover;
+
         };
     };
     .example-2 {
@@ -477,7 +515,6 @@ button{
 .soleil{
   margin-left: 500px;
   display: inline-block;
-  visibility: hidden;
 }
 .nuage{
     @extend .soleil;
@@ -494,6 +531,12 @@ button{
 .neige{
     @extend .soleil;
     margin-left: -535px;
+}
+.illu{
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
 //-----------------------------------------------------------
 /*FOOTER*/
